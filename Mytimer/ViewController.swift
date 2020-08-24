@@ -68,6 +68,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func StopbuttonAction(_ sender: Any) {
+        print("ちょっとコード変更")
         //timerをアンラップしてnowTimerに代入
         if let nowTimer = timer{
             //もしタイマーが実行中だったら停止
